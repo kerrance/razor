@@ -47,6 +47,10 @@ a:focus {
   background-color: var(--color__green);
 }
 
+p {
+  margin-bottom: 2vh;
+}
+
 .flex {
   display: flex;
   justify-content: space-between;
@@ -80,6 +84,11 @@ nav {
 
 main {
   padding: 12vh 0;
+}
+
+.hero {
+  padding: 8vh 0;
+  text-transform: uppercase;
 }
 
 .container {
