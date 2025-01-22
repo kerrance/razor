@@ -3,8 +3,9 @@
 :root {
   --color__green: #00ff33;
   --color__purple: #9d00ff;
-  --color__grey: #d9cfd9;
-  --color__black: #1e1c1f;
+  --color__purple-muted: #856a95;
+  --color__purple-dark: #321841;
+  --color__black: #1c002d;
 }
 
 * {
@@ -18,7 +19,7 @@ body {
   font-weight: 600;
   font-style: normal;
   color: white;
-  background-color: var(--color__black);
+  background-color: var(--color__purple-dark);
   line-height: 1.3;
 }
 
@@ -78,6 +79,7 @@ p {
 header {
   text-transform: uppercase;
   background-color: var(--color__black);
+  border-bottom: 0.2rem solid var(--color__purple);
   padding: 1vh 1vw;
 }
 
@@ -90,33 +92,32 @@ nav {
 }
 
 main {
-  padding: 12vh 0;
+  height: 86vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
   main {
-    padding: 0;
+    height: auto;
+    padding: 4vh 0;
   }
 }
 
 .hero {
-  padding: 8vh 0;
   text-transform: uppercase;
 }
 
-.hero h2 {
+.hero h2,
+.hero h3 {
   margin-bottom: 2vh;
-}
-
-.call-to-action {
-  padding: 4vh 0;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  width: 68vw;
-  max-width: 420px;
+  width: 420px;
 }
 
 @media screen and (max-width: 768px) {
@@ -154,9 +155,8 @@ form input[type="email"] {
 }
 
 form input[type="email"]:focus {
-  background-color: var(--color__black);
-  color: white;
-  outline: 4px solid var(--color__green);
+  outline: 4px solid var(--color__purple);
+  color: var(--color__purple);
 }
 
 form button[type="submit"] {
@@ -176,7 +176,7 @@ form button[type="submit"]:focus {
 
 footer {
   background-color: var(--color__black);
-  color: var(--color__grey);
+  color: var(--color__purple-muted);
   padding: 4vh 0 8vh;
   font-size: 18px;
 }

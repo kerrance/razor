@@ -43,8 +43,8 @@ function draw() {
     Math.cos(time) * 300 + 500
   );
 
-  // Purple
-  gradient.addColorStop(0, "rgba(157, 0, 255, 1)");
+  // Dark Grey
+  gradient.addColorStop(0, "rgb(50, 50, 50)");
 
   // Black
   gradient.addColorStop(1, "rgba(30, 28, 31, 1)");
