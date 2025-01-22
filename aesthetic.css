@@ -96,6 +96,27 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: linear-gradient(
+    -64deg,
+    var(--color__purple),
+    var(--color__purple-dark),
+    var(--color__black),
+    var(--color__purple-muted)
+  );
+  background-size: 240% 240%;
+  animation: gradient 12s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -169,7 +190,7 @@ form button[type="submit"]:active {
 }
 
 form button[type="submit"]:focus {
-  background-color: var(--color__black);
+  background-color: transparent;
   color: white;
   outline: 4px solid var(--color__green);
 }
