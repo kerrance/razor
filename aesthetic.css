@@ -130,7 +130,10 @@ main {
   text-transform: uppercase;
 }
 
-.hero h2,
+.hero h2 {
+  margin-bottom: 1vh;
+}
+
 .hero h3 {
   margin-bottom: 2vh;
 }
