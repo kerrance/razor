@@ -40,16 +40,15 @@ h3 {
 
 a,
 a:visited {
-  color: var(--color__green);
-  padding: 0 0.3vw;
+  color: white;
   text-decoration: none;
+  border-bottom: 0.2rem solid transparent;
 }
 
 a:active,
 a:hover,
 a:focus {
-  color: black;
-  background-color: var(--color__green);
+  border-bottom: 0.2rem solid var(--color__green);
 }
 
 a:focus {
@@ -80,18 +79,6 @@ header {
   text-transform: uppercase;
   background-color: var(--color__black);
   padding: 1vh 1vw;
-}
-
-header a,
-header a:visited {
-  color: white;
-}
-
-header a:active,
-header a:hover,
-header a:focus {
-  color: var(--color__black);
-  background-color: var(--color__green);
 }
 
 .logo {
