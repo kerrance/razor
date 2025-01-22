@@ -80,15 +80,23 @@ header {
   text-transform: uppercase;
   background-color: var(--color__black);
   border-bottom: 0.2rem solid var(--color__purple);
-  padding: 1vh 1vw;
 }
 
 .logo {
   flex: 1 1 auto;
+  padding: 2rem 0 0;
 }
 
 nav {
   flex: 0 0 auto;
+}
+
+header h1 {
+  display: inline;
+}
+
+header a {
+  padding: 0 0 0.2rem;
 }
 
 main {
