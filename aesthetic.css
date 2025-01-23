@@ -141,6 +141,12 @@ main {
   }
 }
 
+main h2::selection,
+main h3::selection,
+main p::selection {
+  text-shadow: none;
+}
+
 .hero {
   text-transform: uppercase;
 }
