@@ -116,15 +116,10 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: linear-gradient(
-    -64deg,
-    var(--color__purple),
-    var(--color__purple-dark),
-    var(--color__black),
-    var(--color__purple-muted)
-  );
-  background-size: 240% 240%;
-  animation: gradient 12s ease infinite;
+  background: linear-gradient(37deg, var(--color__purple), var(--color__black), var(--color__purple));
+  background-size: 300% 300%;
+  animation: gradient 8s ease infinite;
+  text-shadow: 2px 2px 4px rgba(28, 0, 45, 0.6);
 }
 
 @keyframes gradient {
