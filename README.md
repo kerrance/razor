@@ -1,6 +1,6 @@
-# Kerri Sharp
+# Razor Sharp
 
-The website includes details about RazorSharp.
+The website includes details about Razor Sharp.
 
 ## Table of Contents
 
@@ -11,7 +11,7 @@ The website includes details about RazorSharp.
 
 ## Overview
 
-The website is designed to inform visitors about RazorSharp.
+The website is designed to inform visitors about Razor Sharp.
 
 ## Getting Started
 
