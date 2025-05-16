@@ -7,16 +7,16 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white dark:bg-black flex flex-col items-center justify-center px-4 transition-colors">
       <main className="w-full max-w-lg flex flex-col items-center">
-        <h1 className="text-black dark:text-white text-4xl sm:text-5xl font-bold mb-2 tracking-tight">
-          Cut through the <span className="text-purple-500">crap.</span>
+        <h1 className="text-black dark:text-white text-4xl sm:text-5xl text-center font-bold mb-2 tracking-tight">
+          <span className="text-purple-500">Razor</span> Sharp
         </h1>
-        <h2 className="text-black dark:text-white text-2xl sm:text3xl font-bold mb-6 max-w-md">
+        <h2 className="text-black dark:text-white text-2xl sm:text3xl text-center font-bold mb-6 max-w-md">
           Your digital handyman.
         </h2>
-        <p className="text-gray-700 dark:text-gray-400 text-lg mb-2 max-w-md">
+        <p className="text-gray-700 dark:text-gray-400 text-lg text-center mb-2 max-w-md">
           No fuss. No BS. Just you staying <span className="text-purple-500">Razor Sharp.</span>
         </p>
-        <p className="text-gray-700 dark:text-gray-400 text-lg mb-8 max-w-md">Want to be first in?</p>
+        <p className="text-gray-700 dark:text-gray-400 text-lg text-center mb-8 max-w-md">Want to be first in?</p>
         <div className="w-full bg-zinc-100 dark:bg-zinc-900/80 p-8 transition-colors">
           <ContactForm onFeedback={setFeedback} />
         </div>
