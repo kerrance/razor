@@ -26,7 +26,9 @@ export default function Home() {
           <p className="text-gray-700 dark:text-gray-400 text-lg text-center mb-2 max-w-md">
             No fuss. No BS. Just you staying <span className="text-purple-500">Razor Sharp.</span>
           </p>
-          <p className="text-gray-700 dark:text-gray-400 text-lg text-center mb-8 max-w-md">Want to be first in?</p>
+          <p className="text-gray-700 dark:text-gray-400 text-lg text-center mb-8 max-w-md">
+            Want to be the first to find out more?
+          </p>
           <div className="w-full bg-zinc-100 dark:bg-zinc-900/80 p-8 transition-colors">
             <ContactForm onFeedback={setFeedback} />
           </div>
